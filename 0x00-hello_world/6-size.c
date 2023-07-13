@@ -7,6 +7,6 @@
 
 int main(void)
 {
-    sizeof(int);
-    return (0);
+	sizeof(int);
+	return (0);
 }
