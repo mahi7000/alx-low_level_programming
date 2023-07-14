@@ -3,8 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-/** main - function
+/** main - function for random number n
  *
  * Return: 0 (Success)
  */
