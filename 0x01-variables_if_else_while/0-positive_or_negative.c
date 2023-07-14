@@ -3,7 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 
-/** main - function for random number n
+/**
+ * main - function for random number n
  *
  * Return: 0 (Success)
  */
