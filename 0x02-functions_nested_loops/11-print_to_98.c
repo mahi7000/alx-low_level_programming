@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - function
+ * @n: number
  */
 
 void print_to_98(int n)
@@ -13,27 +14,20 @@ void print_to_98(int n)
 	{
 		for (p = n; p <= 98; p++)
 		{
-			if (p < 98)
-			{
-				printf("%d", p);
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				printf("%d", p);
-				_putchar('\n');
-			}
+			if (p != 98)
+				printf("%d, ", p);
+			else if (p == 98)
+				printf("%d\n", p);
 		}
-	}
-	else if (n > 98)
+	} else if (n >= 98)
 	{
-		for (q = n; q > 98; q--)
+		for (q = n; q >= 98; q--)
 		{
-			printf("%d", q);
-			_putchar(',');
-			_putchar(' ');
+			if (q != 98)
+				printf("%d, ", q);
+			else if (q == 98)
+				printf("%d\n", q);
 		}
-
 	}
+
 }
