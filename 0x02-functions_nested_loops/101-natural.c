@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - function
+ * main - list all natural numbers below 1024
  * Return: 0
  */
 
