@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - list all natural numbers below 1024
  * Return: 0
  */
