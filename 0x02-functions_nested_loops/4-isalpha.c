@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - function
- * @c - character to be tested
+ * @c - char to be tested
  * Return: 1 if letter lowercase or uppercase, otherwise 0
  */
 
