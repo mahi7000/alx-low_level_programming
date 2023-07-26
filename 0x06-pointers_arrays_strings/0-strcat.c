@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - function
+ * _strcat - function
  * @dest: char
  * @src: char
  * Return: dest
