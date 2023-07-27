@@ -4,7 +4,7 @@
  * _strcat - function
  * @dest: char
  * @src: char
- * Return: dest
+ * Return: void
  */
 
 char *_strcat(char *dest, char *src)
