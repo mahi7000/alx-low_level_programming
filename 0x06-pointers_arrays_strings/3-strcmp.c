@@ -4,7 +4,7 @@
  * _strcmp - function
  * @s1: char
  * @s2: char
- * Return: int
+ * Return: s1[i] - s2[i]
  */
 
 int _strcmp(char *s1, char *s2)
