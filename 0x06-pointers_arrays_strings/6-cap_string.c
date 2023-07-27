@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * cap_string - function
+ * @str: char
+ * Return: char
+ */
+
+char *cap_string(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (str[i-1] < 48 && (str[i] > 96 && str[i] < 123))
+		{
+			str[i] -= 32;
+		}
+		i++;
+	}
+	return (str);
+}
