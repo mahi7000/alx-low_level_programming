@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - function
  * @n: int
+ * @i: int
  * Return: int
  */
 
