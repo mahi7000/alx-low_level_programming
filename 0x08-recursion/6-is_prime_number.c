@@ -22,6 +22,10 @@ int is_prime_number(int n)
 	return (_prime(n, n - 1));
 }
 
+/**
+ * _prime - function
+ */
+
 int _prime(int n, int i)
 {
 	if (i == 1)
@@ -29,4 +33,4 @@ int _prime(int n, int i)
 	else if (n % i == 0 && i > 0)
 		return (0);
 	return (_prime(n, i - 1));
-}	
+}
