@@ -15,6 +15,13 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 0));
 }
 
+/**
+ * _sqrt - function
+ * @n: int
+ * @i: int
+ * Return: int
+ */
+
 int _sqrt(int n, int i)
 {
 	if (i * i > n)
