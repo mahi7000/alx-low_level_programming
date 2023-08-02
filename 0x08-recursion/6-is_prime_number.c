@@ -24,6 +24,9 @@ int is_prime_number(int n)
 
 /**
  * _prime - function
+ * @n: int
+ * @i: int
+ * Return: int
  */
 
 int _prime(int n, int i)
