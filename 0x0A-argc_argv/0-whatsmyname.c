@@ -3,7 +3,7 @@
 
 /**
  * main - function
- * @argc: int
+ * 
  * @argv: array of pointer to string
  * Return: 0 (Success)
  */
