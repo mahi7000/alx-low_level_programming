@@ -5,7 +5,7 @@
  * main - function
  * @argc: int
  * @argv: array of pointer to string
- * Return: 0
+ * Return: 0 (Success)
  */
 
 int main(int argc, char* argv[])
