@@ -3,12 +3,12 @@
 
 /**
  * main - function
- * 
+ * @argc: int
  * @argv: array of pointer to string
  * Return: 0 (Success)
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
