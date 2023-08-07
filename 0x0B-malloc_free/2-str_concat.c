@@ -4,7 +4,7 @@
 /**
  * str_concat - function
  * @s1: char
- * @s2: char 
+ * @s2: char
  * Return: char
  */
 
@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 		s[i] = s1[i];
 		i++;
 	}
-	
+
 	j = 0;
 	while (s2[j] != '\0')
 	{
