@@ -6,7 +6,7 @@
  * @s1: char
  * @s2: char
  * @n: unsigned int
- * Return: point to a newly allocated space in memory which contains s1, followed by the first n bytes of s2 and null terminated
+ * Return: point to a newly 
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -22,7 +22,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n2++;
 	}
-		
+
 	if (n >= n2)
 		p = malloc(sizeof(char) * (n1 + n2 + 1));
 	else
@@ -46,7 +46,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 		j++;
 	}
-	
+
 	p[i] = '\0';
 
 	return (p);
