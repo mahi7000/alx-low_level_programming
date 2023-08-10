@@ -6,7 +6,7 @@
  * @s1: char
  * @s2: char
  * @n: unsigned int
- * Return: point to a newly 
+ * Return: point to a newly
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -15,10 +15,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int i, j;
 	unsigned int n1 = 0, n2 = 0;
 
-	while (s1[n1] != '\0')
+	while (s1 && s1[n1])
 		n1++;
 
-	while (s2[n2] != '\0')
+	while (s2 && s2[n2])
 	{
 		n2++;
 	}
@@ -42,9 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	while (n >= n2 && i < (n1 + n2))
 	{
-		p[i] = s2[j];
-		i++;
-		j++;
+		p[i++] = s2[j++];
 	}
 
 	p[i] = '\0';
