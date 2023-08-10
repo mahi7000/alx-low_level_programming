@@ -5,7 +5,7 @@
  * _memset - function
  * @s: string
  * @a: char
- * @numb: unsigned int
+ * @num: unsigned int
  * Return: string
  */
 
@@ -30,10 +30,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
 
-	p = malloc(size * nmemb);
-
 	if (nmemb == 0 || size == 0)
 		return (NULL);
+
+	p = malloc(size * nmemb);
 
 	if (p == NULL)
 		return (NULL);
