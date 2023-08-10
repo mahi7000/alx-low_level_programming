@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - function
+ * *malloc_checked - function
  * @b: unsigned int
  * Return: pointer to the allocated memory
  */
