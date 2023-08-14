@@ -2,10 +2,12 @@
 #define DOG_H
 
 /**
- * dog - struct
+ * struct dog - struct
  * @name: char
  * @age: float
  * @owner: char
+ *
+ * Description: a new type struct dog
  */
 
 struct dog
