@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * get_op_function - pointer to function
+ * get_op_func - pointer to function
  * @s: strint
  * Return: int
  */
@@ -15,8 +15,9 @@ int (*get_op_func(char *s))(int, int)
 	{"*", op_mul},
 	{"/", op_div},
 	{"%", op_mod},
-	{NULL, NULL}
+	{NULL, NULL},
 	};
+
 	int i;
 
 	i = 0;
