@@ -3,7 +3,7 @@
 /**
  * print name - function
  * @name: string
- * f - function
+ * @f: pointer to function
  * Return: void
  */
 
