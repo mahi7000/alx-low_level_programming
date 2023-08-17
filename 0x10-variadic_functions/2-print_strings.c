@@ -12,12 +12,12 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
+	unsigned int i;
+	char *word;
+
 	va_list words;
 
 	va_start(words, n);
-
-	unsigned int i;
-	char *word;
 
 	for (i = 0; i < n; i++)
 	{
