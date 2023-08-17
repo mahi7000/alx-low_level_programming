@@ -12,11 +12,11 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+	unsigned int i;
+
 	va_list nums;
 
 	va_start(nums, n);
-
-	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
