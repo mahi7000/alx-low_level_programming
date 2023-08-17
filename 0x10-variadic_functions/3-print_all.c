@@ -12,13 +12,10 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *str;
-	char *separator = "";
-
+	char *str, *separator = "";
 	va_list any;
 
 	va_start(any, format);
-
 	if (format)
 	{
 		while (format[i])
@@ -50,6 +47,5 @@ void print_all(const char * const format, ...)
 		}
 	}
 	printf("\n");
-
 	va_end(any);
 }
