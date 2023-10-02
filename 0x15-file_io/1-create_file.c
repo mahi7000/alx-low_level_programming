@@ -11,13 +11,13 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
-	int l;
+	int l = 0;
 	int i;
 
 	if (filename == NULL)
 		return (-1);
 
-	if (text_content != NULL)
+	if (text_content)
 	{
 		l = 0;
 		while (text_content[l])
