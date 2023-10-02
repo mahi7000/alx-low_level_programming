@@ -71,8 +71,7 @@ int main(int argc, char *argv[])
 	i = read(from, c, 1024);
 	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	do
-	{
+	do {
 		if (i == -1 || from == -1)
 		{
 			dprintf(STDERR_FILENO,
