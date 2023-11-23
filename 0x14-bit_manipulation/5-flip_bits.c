@@ -17,7 +17,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	xor = n ^ m;
 	while (xor)
 	{
-		if (xor % 2 == 1)
+		if ((xor & 1) == 1)
 			flipper += 1;
 		xor >>= 1;
 	}
