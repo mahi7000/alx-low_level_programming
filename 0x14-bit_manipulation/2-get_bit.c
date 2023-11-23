@@ -12,12 +12,15 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	int num_at_index;
 
+	if (index > 31)
+		return (-1);
+
 	n = n >> index;
 
 	if (n % 2 == 0)
 		num_at_index = 0;
 	else
-		num_at_index = 1;	
+		num_at_index = 1;
 
 	return (num_at_index);
 }
