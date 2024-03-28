@@ -5,15 +5,20 @@
 def island_perimeter(grid):
     """ returns the perimeter of island described in grid """
     perimeter = 0
-    for block in grid:
-        for cell in block:
-            if cell == 1:
-                perimeter = perimeter + 1
-    if perimeter == 1:
-        perimeter = 4
-    elif perimeter == 0:
-        perimeter = 0
-    else:
-        perimeter = (perimeter * 2) + 2
+    width = len(grid[0])
+    height = len(grid)
+    edges = 0
+    size = 0
+
+    for i in range(height):
+        for j in range(width):
+            if grid[i][j] == 1:
+                size += 1
+                if (j > 0 and grid[i][j - 1] == 1):
+                    edges += 1
+                if (i > 0 and grid[i - 1][j] == 1):
+                    edges += 1
+
+    perimeter = size * 4 - edges * 2
 
     return perimeter
