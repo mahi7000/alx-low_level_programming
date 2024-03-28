@@ -9,7 +9,11 @@ def island_perimeter(grid):
         for cell in block:
             if cell == 1:
                 perimeter = perimeter + 1
-
-    perimeter = (perimeter * 2) + 2
+    if perimeter == 1:
+        perimeter = 4
+    elif perimeter == 0:
+        perimeter = 0
+    else:
+        perimeter = (perimeter * 2) + 2
 
     return perimeter
